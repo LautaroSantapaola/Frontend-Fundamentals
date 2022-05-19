@@ -1,0 +1,75 @@
+body {
+    background-image: url(foto.jpg);
+    background-size: 100%;
+    color: rgb(241, 241, 156);
+}
+
+form {
+    background-color: rgb(52, 97, 77);
+    padding: 15px;
+    width: 15%;
+    margin-left: 41%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;    
+}
+
+form label , form legend {
+    display: block;
+    margin: 0 0 10px;
+    padding: 5px;
+}
+
+legend {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    background-color: rgba(228, 179, 124, 0.781);
+    border: none;
+    border-radius: 3px;
+    width: 95%;
+    height: 20px;
+}
+
+.checkbox {
+    font-size: 1em;
+}
+
+a {
+    color: beige;
+}
+
+.enviar {
+    margin-left: 30%;
+    margin-top: 7px;
+    width: 40%;
+    padding: 5px;
+    background-color: rgb(173, 138, 98);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.enviar:hover {
+    background-color: rgb(255, 153, 58);
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.registro {
+    text-align: center;
+    font-size: 10px;
+}
